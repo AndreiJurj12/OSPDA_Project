@@ -1,0 +1,42 @@
+Pentru Windows:
+C++ deja instalat, Java deja instalat, Python deja instalat, Julia cu installer
+Pentru versiunile de MPI:
+Instalat Microsoft MPI (MS-MPI) + Visual Studio => C++ ready
+Pentru Python si Julia se instaleaza in package manager lor wrappere
+Pentru Java, am instalat FastMPJ cu installer, in general standalone.
+
+
+Java:
+fmpjc Source_MPI.java - compile
+fmpjrun -np 2 -class Source_MPI - run
+
+
+Python:
+mpiexec -n 2 py source_mpi.py
+
+Julia:
+mpiexec -n 2 julia source_mpi.jl
+
+C++:
+mpicxx source.cpp -o source.exe
+mpiexec -n 2 source.exe
+
+
+
+Pentru Linux - my cluster
+C++ cu MPI este instalat
+Python avem doar versiunea 2.. instalam 3 de asemenea
+Java instalat este 7.. vedem daca va merge
+Julia desigur nu este instalat
+
+
+
+Instalarea de python (user normal fara sudo daca se poate):
+
+1. Prespecificatii necesare (yum pt Centos/RedHat)
+yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel
+
+
+
+
+

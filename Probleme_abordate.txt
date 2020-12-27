@@ -1,0 +1,17 @@
+Problema 1 - usoara
+
+Calculeaza valoarea medie a unui vector
+Pentru paralelizare, fiecare thread/proces va lua un anumit chunk din vector la procesat
+
+Problema 2 - medie
+
+Calculeaza produsului a doua matrici (complexitatea basic O(N^3)
+Pentru paralelizare, fiecare thread/proces va calcula un anumit numar de randuri
+
+Problema 3 - grea
+
+Produsul a doua polinoame (Karatsuba)
+Pentru paralelizare, vom imparti pe branch-uri fiecare thread/proces
+
+
+
